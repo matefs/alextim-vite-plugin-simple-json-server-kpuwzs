@@ -11,36 +11,7 @@ function updateView(html, id = '#examples') {
 }
 
 updateView(
-  `  
-  <div class="flex flex-col min-h-screen items-center justify-center bg-gray-100">
-    <h1 class="text-3xl font-bold mb-4">Cadastro de Empresas</h1>
-
-    <form action="/cadastrar-empresa" method="POST" class="space-y-4 w-full max-w-sm bg-white shadow-md rounded-md p-8">
-      <label for="nomeEmpresa" class="block text-sm font-medium text-gray-700">
-        Nome da Empresa:
-      </label>
-      <input type="text" id="nomeEmpresa" name="nomeEmpresa" required class="w-full rounded-md border border-gray-300 py-2 px-3 text-sm focus:outline-none focus:ring-1 focus:ring-indigo-500">
-
-      <label for="endereco" class="block text-sm font-medium text-gray-700">
-        Endereço:
-      </label>
-      <input type="text" id="endereco" name="endereco" required class="w-full rounded-md border border-gray-300 py-2 px-3 text-sm focus:outline-none focus:ring-1 focus:ring-indigo-500">
-
-      <label for="competencia" class="block text-sm font-medium text-gray-700">
-        Competência:
-      </label>
-      <input type="text" id="competencia" name="competencia" required class="w-full rounded-md border border-gray-300 py-2 px-3 text-sm focus:outline-none focus:ring-1 focus:ring-indigo-500">
-
-      <label for="cnpj" class="block text-sm font-medium text-gray-700">
-        CNPJ:
-      </label>
-      <input type="text" id="cnpj" name="cnpj" required class="w-full rounded-md border border-gray-300 py-2 px-3 text-sm focus:outline-none focus:ring-1 focus:ring-indigo-500">
-
-      <button type="submit" class="inline-flex items-center px-4 py-2 bg-indigo-500 text-white rounded-md hover:bg-indigo-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500">
-        Cadastrar
-      </button>
-    </form>
-  </div> 
+  `  asdfasdfasdf
 `,
   '#app'
 );

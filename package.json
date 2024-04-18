@@ -9,10 +9,13 @@
     "preview": "vite preview"
   },
   "devDependencies": {
+    "autoprefixer": "^10.4.19",
+    "postcss": "^8.4.38",
+    "tailwindcss": "^3.4.3",
     "vite": "^4.0.3",
     "vite-plugin-simple-json-server": "latest"
   },
-  "engines" : {
-    "node" : ">=15.7.0"
+  "engines": {
+    "node": ">=15.7.0"
   }
 }
