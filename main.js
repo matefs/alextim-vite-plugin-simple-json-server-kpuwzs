@@ -15,7 +15,8 @@ updateView(
 `,
   '#app'
 );
-
+/// Docs: 
+// https://www.npmjs.com/package/vite-plugin-simple-json-server/v/0.4.1
 // document.querySelector('#app').innerHTML += 'lçasjdflçjasçldkfçlasjdf'
 
 function handleErrors(resp) {
